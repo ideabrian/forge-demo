@@ -16,6 +16,10 @@ Route::get('/', function () {
     return redirect()->to('/admin/posts');
 });
 
+Route::get('/upload', function() {
+    return view('upload');
+});
+
 Route::get('/log', function () {
     Log::info('This is an info log.');
     
