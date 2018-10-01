@@ -94,7 +94,7 @@
                 <form method="POST" action="/avatars" enctype="multipart/form-data">
                     {{ csrf_field() }}
 
-                    <input type="file" nmae="avatar"/>
+                    <input type="file" name="avatar"/>
                     <button type="submit">Save Avatar</button>
                 </form>
                </div>
